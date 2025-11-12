@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bộ Sưu Tập Thời Trang</title>
+    <link rel="stylesheet" href="styleTT.css"> </head>
+<body>
+
+    <header class="collection-header">
+        <h1>Danh Mục Thời Trang</h1>
+    </header>
+
+    <main class="collection-layout">
+
+        <aside class="sidebar-filter">
+            <h2>Lọc Sản Phẩm</h2>
+
+            <div class="filter-group">
+                <h3>Danh Mục Phụ</h3>
+                <ul>
+                    <li><label><input type="checkbox"> Áo </label></li>
+                    <li><label><input type="checkbox"> Quần</label></li>
+                    <li><label><input type="checkbox"> Giày</label></li>
+                </ul>
+            </div>
+
+            <div class="filter-group">
+                <h3>Kích Cỡ</h3>
+                <div class="size-options">
+                    <span class="size-btn active">S</span>
+                    <span class="size-btn">M</span>
+                    <span class="size-btn">L</span>
+                    <span class="size-btn">XL</span>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Màu Sắc</h3>
+                <div class="color-options">
+                    <span class="color-swatch" style="background-color: black;" title="Đen"></span>
+                    <span class="color-swatch" style="background-color: white; border: 1px solid #ccc;" title="Trắng"></span>
+                    <span class="color-swatch" style="background-color: #a52a2a;" title="Nâu"></span>
+                    <span class="color-swatch" style="background-color: #1e90ff;" title="Xanh Dương"></span>
+                </div>
+            </div>
+
+            </aside>
+
+        <section class="product-area">
+            
+            <div class="sort-bar">
+                <label for="sort-by">Sắp xếp theo:</label>
+                <select id="sort-by">
+                    <option value="newest">Mới nhất</option>
+                    <option value="price-asc">Giá thấp đến cao</option>
+                    <option value="bestseller">Bán chạy nhất</option>
+                </select>
+            </div>
+
+            <div class="product-grid">
+                <a href="https://insidemen.vn/blogs/phong-cach-insidemen/chat-lieu-ao-polo-nam-tu-co-ban-den-cao-cap?srsltid=AfmBOoptCDlX0zbb7gDrAazc7hYvMHjSV-jtH53Ymu4mm88f8zIFe9Yt" class="product-card">
+                    <div class="product-image-container">
+                        <img class="main-image" src="/Ảnh_WEB/Thunnam1.jpg" alt="Áo Thun Nam">
+                        <img class="hover-image" src="/Ảnh_WEB/Thunnam1.1.jpg" alt="Áo Thun Nam">
+                        <span class="badge sale">SALE 50%</span>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Áo Thun Nam Cao Cấp</p>
+                        <p class="product-brand">Thương hiệu XYZ</p>
+                        <p class="product-price">
+                            <span class="old-price">1.200.000₫</span>
+                            <span class="current-price">600.000₫</span>
+                        </p>
+                        <div class="product-colors">
+                             <span class="color-swatch small" style="background-color: black;"></span>
+                             <span class="color-swatch small" style="background-color: #a52a2a;"></span>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="product-detail.html" class="product-card">
+                    <div class="product-image-container">
+                        <img class="main-image" src="/Ảnh_WEB/Thunnam1.jpg" alt="Áo Thun Nam">
+                        <img class="hover-image" src="/Ảnh_WEB/Thunnam1.1.jpg" alt="Áo Thun Nam">
+                        <span class="badge sale">SALE 50%</span>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Áo Khoác</p>
+                        <p class="product-brand">Thương hiệu XYZ</p>
+                        <p class="product-price">
+                            <span class="old-price">1.500.000₫</span>
+                            <span class="current-price">750.000₫</span>
+                        </p>
+                        <div class="product-colors">
+                             <span class="color-swatch small" style="background-color: black;"></span>
+                             <span class="color-swatch small" style="background-color: #a52a2a;"></span>
+                             <span class="color-swatch small" style="background-color: #34ac0f;"></span>
+                        </div>
+                    </div>
+                </a>
+                <a href="product-detail.html" class="product-card">
+                    <div class="product-image-container">
+                        <img class="main-image" src="/Ảnh_WEB/Thunnam1.jpg" alt="Áo Thun Nam">
+                        <img class="hover-image" src="/Ảnh_WEB/Thunnam1.1.jpg" alt="Áo Thun Nam">
+                        <span class="badge sale">SALE 50%</span>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Áo Khoác</p>
+                        <p class="product-brand">Thương hiệu XYZ</p>
+                        <p class="product-price">
+                            <span class="old-price">1.000.000₫</span>
+                            <span class="current-price">500.000₫</span>
+                        </p>
+                        <div class="product-colors">
+                             <span class="color-swatch small" style="background-color: black;"></span>
+                             <span class="color-swatch small" style="background-color: #a52a2a;"></span>
+                             <span class="color-swatch small" style="background-color: #34ac0f;"></span>
+                             <span class="color-swatch small" style="background-color: #4a1b75;"></span>
+                        </div>
+                    </div>
+                </a>
+                <a href="product-detail.html" class="product-card">
+                    <div class="product-image-container">
+                        <img class="main-image" src="/Ảnh_WEB/Thunnam1.jpg" alt="Áo Thun Nam">
+                        <img class="hover-image" src="/Ảnh_WEB/Thunnam1.1.jpg" alt="Áo Thun Nam">
+                        <span class="badge sale">SALE 50%</span>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Áo Khoác</p>
+                        <p class="product-brand">Thương hiệu XYZ</p>
+                        <p class="product-price">
+                            <span class="old-price">1.000.000₫</span>
+                            <span class="current-price">500.000₫</span>
+                        </p>
+                        <div class="product-colors">
+                             <span class="color-swatch small" style="background-color: black;"></span>
+                             <span class="color-swatch small" style="background-color: #a52a2a;"></span>
+                             <span class="color-swatch small" style="background-color: #34ac0f;"></span>
+                             <span class="color-swatch small" style="background-color: #4a1b75;"></span>
+                        </div>
+                    </div>
+                </a>
+                <a href="product-detail.html" class="product-card">
+                    <div class="product-image-container">
+                        <img class="main-image" src="/Ảnh_WEB/Thunnam1.jpg" alt="Áo Thun Nam">
+                        <img class="hover-image" src="/Ảnh_WEB/Thunnam1.1.jpg" alt="Áo Thun Nam">
+                        <span class="badge sale">SALE 50%</span>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Áo Khoác</p>
+                        <p class="product-brand">Thương hiệu XYZ</p>
+                        <p class="product-price">
+                            <span class="old-price">1.000.000₫</span>
+                            <span class="current-price">500.000₫</span>
+                        </p>
+                        <div class="product-colors">
+                             <span class="color-swatch small" style="background-color: black;"></span>
+                             <span class="color-swatch small" style="background-color: #a52a2a;"></span>
+                             <span class="color-swatch small" style="background-color: #34ac0f;"></span>
+                             <span class="color-swatch small" style="background-color: #4a1b75;"></span>
+                        </div>
+                    </div>
+                </a>
+                <a href="product-detail.html" class="product-card">
+                    <div class="product-image-container">
+                        <img class="main-image" src="/Ảnh_WEB/Thunnam1.jpg" alt="Áo Thun Nam">
+                        <img class="hover-image" src="/Ảnh_WEB/Thunnam1.1.jpg" alt="Áo Thun Nam">
+                        <span class="badge sale">SALE 50%</span>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Áo Khoác</p>
+                        <p class="product-brand">Thương hiệu XYZ</p>
+                        <p class="product-price">
+                            <span class="old-price">1.000.000₫</span>
+                            <span class="current-price">500.000₫</span>
+                        </p>
+                        <div class="product-colors">
+                             <span class="color-swatch small" style="background-color: black;"></span>
+                             <span class="color-swatch small" style="background-color: #a52a2a;"></span>
+                             <span class="color-swatch small" style="background-color: #34ac0f;"></span>
+                             <span class="color-swatch small" style="background-color: #4a1b75;"></span>
+                        </div>
+                    </div>
+                </a>
+                <a href="product-detail.html" class="product-card">...</a>
+                <a href="product-detail.html" class="product-card">...</a>
+            </div>
+
+            <div class="pagination">
+                <button>Xem thêm sản phẩm</button>
+                <p>Hiển thị 1-8 trên 258 sản phẩm</p>
+            </div>
+
+        </section>
+
+    </main>
+    
+</body>
+</html>
